@@ -15,7 +15,7 @@ public class Main{
         }
         reverse(num,n);
         System.out.println(Arrays.toString(num)); 
-        
+        //It prints array as a string with commas and brackets
         
     }
     static void reverse(int[] a,int n)
