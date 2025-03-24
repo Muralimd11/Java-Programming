@@ -20,6 +20,7 @@ public class Main{
     }
     static void reverse(int[] a,int n)
     {
+        //It is like swapping first element with last , second element with second last element ...
         int i=0;
         int j=n-1;
         while(i<j)
