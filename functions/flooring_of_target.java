@@ -6,12 +6,12 @@ public class Main {
     public static void main(String[] args) {
        int[] a={2,3,5,9,14,16,18};
        int target=15;
-       int ans=ceiling(a,target);
+       int ans=flooring(a,target);
        System.out.println(ans);
     }
     
     //If target is not found start becomes greater than end so, index of end is  greatest smaller no than target
-    static int ceiling(int[] arr,int target)
+    static int flooring(int[] arr,int target)
     {
         int start=0;
         int end=arr.length-1;
