@@ -1,6 +1,6 @@
 import java.util.*;
 
-//ceiling of num is finding the smallest no which is greater than or equal to target no
+//flooring of no is finding the greater no which is smaller than or equal to target no
 
 public class Main {
     public static void main(String[] args) {
@@ -10,7 +10,7 @@ public class Main {
        System.out.println(ans);
     }
     
-    //If traget is not found start becomes greater than end so, index of start is smallest greater no than target
+    //If target is not found start becomes greater than end so, index of end is  greatest smaller no than target
     static int ceiling(int[] arr,int target)
     {
         int start=0;
